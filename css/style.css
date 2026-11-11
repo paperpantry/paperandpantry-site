@@ -406,7 +406,8 @@ a { color: var(--olive); }
 
 .footer-inner a { text-decoration: none; font-family: var(--heading); text-transform: uppercase; }
 
-.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+.footer-links { display: flex; gap: 14px; flex-wrap: wrap; align-items: center; }
+.footer-sep { color: var(--olive); opacity: 0.6; }
 
 /* Policy page */
 .policy { max-width: 760px; padding-top: 56px; padding-bottom: 72px; }
