@@ -406,6 +406,16 @@ a { color: var(--olive); }
 
 .footer-inner a { text-decoration: none; font-family: var(--heading); text-transform: uppercase; }
 
+.footer-links { display: flex; gap: 24px; flex-wrap: wrap; }
+
+/* Policy page */
+.policy { max-width: 760px; padding-top: 56px; padding-bottom: 72px; }
+.policy h1 { margin-bottom: 8px; }
+.policy h2 { text-align: left; font-size: 1.1rem; margin: 36px 0 10px; }
+.policy p { font-size: 1rem; }
+.policy a { color: var(--olive-dark); }
+.policy-meta { color: var(--olive); font-size: 0.9rem; margin-bottom: 8px; }
+
 /* Responsive */
 @media (max-width: 860px) {
   .contact-inner { grid-template-columns: 1fr; }

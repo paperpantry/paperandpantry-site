@@ -18,7 +18,7 @@ siteNav.querySelectorAll('a').forEach(link => {
 const form = document.getElementById('contactForm');
 const formNote = document.getElementById('formNote');
 
-form.addEventListener('submit', async (e) => {
+form?.addEventListener('submit', async (e) => {
   if (form.action.includes('YOUR_FORM_ID')) {
     e.preventDefault();
     formNote.textContent = 'Contact form isn\'t connected yet — see setup instructions.';
